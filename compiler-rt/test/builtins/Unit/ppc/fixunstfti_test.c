@@ -1,4 +1,3 @@
-// XFAIL: *
 // REQUIRES: target-is-powerpc64le
 // RUN: %clang_builtins %s %librt -o %t && %run %t
 
